@@ -1,0 +1,47 @@
+{
+    "name": "Josh",
+    "weight": 175,
+    "age": 30,
+    "eyecolor": "brown",
+    "isHappy": true,
+    "cars": ["Chevy", "Honda"],
+    "favouriteBook": {
+        "title": "The Last Kingdom",
+        "author": "Bernard Cornwell",
+        "rating": 8.38
+    }
+};
+
+//Zidentyfikuj kazda pare klucz-wartosc w tym pliku:
+
+"name": "Josh"
+"weight": 175
+"age": 30
+"eyecolor": "brown"
+"isHappy": true
+"cars": ["Chevy", "Honda"]
+"favouriteBook": {"title": "The Last Kingdom", "author": "Bernard Cornwell", "rating": 8.38}
+
+
+//Okresl typ danych kazdej wartosci w obiekcie JSON:
+
+"name": string
+"weight": number
+"age": number
+"eyecolor": string
+"isHappy": boolean
+"cars": array
+"favouriteBook": object
+
+//wyjasnienie struktury JSON//
+
+JSON (JavaScript Object Notation) jest lekkim formatem wymiany danych, 
+ktory jest prosty w zapisie dla ludzi i latwy do parsowania dla maszyn. 
+Sklada sie z par klucz-wartosc, gdzie klucze sa zawsze ciagami znakow w cudzyslowach, 
+a wartosci moga byc typu string, number, boolean, array, object lub null. 
+W przykladzie pliku JSON, "name", "weight", "age", "eyecolor", "isHappy" to klucze, 
+a ich odpowiadajace wartosci to rozne typy danych, takie jak:
+ string, number, boolean, array i object. 
+ Klucz "cars" przechowuje tablice, ktora zawiera ciagi znakow, a klucz "favouriteBook" zawiera obiekt, 
+ ktory z kolei sklada sie z trzech klucz-wartosc: "title", "author" i "rating". 
+ Tak wiec, ten plik JSON reprezentuje zestaw danych opisujacych osobe oraz jej ulubiona ksiazke.
